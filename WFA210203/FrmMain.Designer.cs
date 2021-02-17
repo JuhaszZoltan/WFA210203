@@ -78,6 +78,7 @@ namespace WFA210203
             this.dgvTanuloAdatok.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvTanuloAdatok.Size = new System.Drawing.Size(978, 240);
             this.dgvTanuloAdatok.TabIndex = 0;
+            this.dgvTanuloAdatok.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvTanuloAdatok_CellClick);
             // 
             // Column1
             // 
@@ -156,7 +157,7 @@ namespace WFA210203
             this.rtbMunkak.Name = "rtbMunkak";
             this.rtbMunkak.Size = new System.Drawing.Size(464, 136);
             this.rtbMunkak.TabIndex = 5;
-            this.rtbMunkak.Text = "Szervezetek, ahol teljesített (név, óra):";
+            this.rtbMunkak.Text = "";
             // 
             // label2
             // 
